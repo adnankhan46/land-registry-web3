@@ -188,8 +188,8 @@ const AppContent = () => {
       <Navigation />
       <div className={useLocation().pathname === "/" ? "" : "container mx-auto px-4 py-2"}>
         <Routes>
-          <Route path="/login" element={<AuthPage />} />
-          <Route path="/signup" element={<AuthPage />} />
+          <Route path="/login" element={<LoginPage />} />
+          <Route path="/signup" element={< AuthPage />} />
 
           <Route
             path="/"
